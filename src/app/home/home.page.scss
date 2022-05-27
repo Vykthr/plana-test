@@ -25,3 +25,36 @@
 #container a {
   text-decoration: none;
 }
+
+ion-item {
+    margin: .5rem 0;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    min-height: 100px;
+}
+
+.details p, .details h6 {
+    margin: .25rem 0;
+}
+
+.movie-content ion-img {
+    display: block;
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.details .desc {
+    margin-bottom: .5rem;
+}
+
+.movie-content p span {
+    font-weight: bold;
+}
